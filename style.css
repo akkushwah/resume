@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Public+Sans:wght@100;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Public+Sans:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    width:800px;
+    margin: 0 auto;
+    box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+    display:flex;
+    
+}
+.main-section .left-part{
+    width: 40%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding:40px;
+
+}
+.left-part .photo-container{
+    height:200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.left-part .photo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border:15px solid white;
+}
+.title{
+    background-color: #464444;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:white;
+    text-align:center;
+    margin:30px 0px;
+
+}
+
+.contact-section .contact-list{
+    display:flex;
+    gap:10px; 
+    margin:15px 0px;
+    font-family:'Lato', sans-serif;
+    color:#444440;
+    font-size:13px;
+}
+.skill-category{
+    margin-bottom: 15px;
+    font-family:'Lato', sans-serif;
+    color: #444440;
+    letter-spacing: 0.3px;
+}
+.skill-category .skill-heading{
+    font-size: 14px;
+    font-weight:800;
+}
+.skill-category .skill{
+    font-size: 14px;
+    font-weight:600;
+}
+.education-section{
+    font-family:'Lato', sans-serif;
+    color: #444440;
+}
+.education-section .degree{
+    margin-bottom: 15px;
+}
+.education-section .eduacation-title{
+    font-size: 14px;
+    font-weight:800;
+    margin-bottom: 6px;
+}
+.education-section .collage-name{
+    font-weight: 600;
+}
+.education-section span{
+    font-size: 13px;
+}
+
+.right-part{
+    padding:40px;
+    
+}
+.name-heading{
+    font-family:'Open Sans', sans-serif;
+    color: #4D4D4F;
+    margin-bottom: 35px;
+
+}
+.name-heading .firstname{
+    font-size: 64px;
+}
+.name-heading .lastname{
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-top:-1rem;
+}
+.right-part .name-heading .role{
+    letter-spacing:8px;
+    margin-top: -7px;
+    font-size: 16px;
+    margin-left:6px;
+}
+.summary{
+    margin-top:68px;
+}
+.summary .summary-text{
+    /* margin-bottom:15px 0; */
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+    color: #737373;
+}
+.project-title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color:#4D4D4F;
+
+
+}
+.points{
+    margin:8px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #737373;
+    font-size:14px;
+    display: flex;
+}
+.points i{
+    font-size: 25px;
+}
+.points span{
+    margin-top:6px;
+}
+.certificate  p{
+    font-size: 14px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom:15px;
+    color: #737373;
+    letter-spacing: 0.3px;
+}
+
+
